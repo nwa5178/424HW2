@@ -1,0 +1,3 @@
+Q6:
+
+When creating this program, an issue encountered were multiple threads properly communicating with one another when multiple aircraft were talking with ATC. A potential solution would be to incorporate functions such as mutexes and condition variables to organize communcation between threads. If actions take time to finish, the reponsiveness/efficiency of ATC coordinating aircraft landings would decrease and could pose an issue to the simulation. A potential solution would be using async function to manage sepearate threads without hindering the main thread.

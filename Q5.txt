@@ -1,0 +1,3 @@
+Q5:
+
+If the robot who has finished a task and gets assigned a new task immediately, the robots who have not completed their first task will have to wait additional time to start and reduces efficiency. Additionally, this could prohibit robots adjacent to each other to get the tools needed to complete their task since other robots are being assigned new tasks. A potential solution would be to implement a task queue that will allow robots to complete their first task or prompt robots with new tasks to act when tools are available.
